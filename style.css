@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    font-family: Arial;   
+    text-align: center;
+
+}
+header {
+    background-color: darkred;
+}
+
+nav {
+    background-color: yellow;
+    padding: 5px;
+}
+body{
+    background-color: rgb(243, 243, 255);
+}
+h1{
+    padding: 20px;
+    color: white;
+}
+a{
+    font-size:15px ;
+    text-decoration: 0;
+    color: black;
+    padding: 50;
+}
+button{
+    padding-inline: 5px;
+    padding: 10px;
+    background-color: chartreuse;
+    margin-inline: 25px;
+    border-radius: 15px;
+}
+
+button:hover{
+    border-color: darkgrey;
+    background-color: darkgreen;
+    a{
+        color:white
+    }
+}
